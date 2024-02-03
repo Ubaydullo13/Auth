@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/" id="form">
+        <h1 class="title">Registration</h1>
+        <div class="input-control">
+          <label for="username">Username*</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="email">Email*</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password">Password*</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password must be at least 6 characters"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="password2">Confirm password*</label>
+          <input
+            type="password"
+            name="password2"
+            id="password2"
+            placeholder="Confirm your password"
+          />
+          <div class="error"></div>
+        </div>
+        <button type="submit" id="button" class="btn">Sign Up</button>
+        <a href="./login.html">Login</a>
+      </form>
+    </div>
+
+    <script src="../js/registration.js" type="module"></script>
+  </body>
+</html>
